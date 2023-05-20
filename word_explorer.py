@@ -138,7 +138,7 @@ class WordShapeApp(QMainWindow):
                 error_dialog.exec_()
 
     def load_dictionary(self):
-        fname = QFileDialog.getOpenFileName(self, 'Open dictionary file', directory='./')
+        fname = QFileDialog.getOpenFileName(self, 'Open dictionary file', directory='./dictionary')
         if fname[0]:
             try:
                 self.dictionary_path = fname[0]
