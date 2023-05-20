@@ -1,0 +1,5 @@
+matplotlib==3.5.1
+numpy==1.24.2
+PyQt5==5.15.9
+scott @ git+https://github.com/theplatypus/scott
+tqdm==4.64.0
