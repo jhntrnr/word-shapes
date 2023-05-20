@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-```
+```sh
 # word_explorer.py is the GUI application
 py word_explorer.py
 
